@@ -1,0 +1,111 @@
+body {
+	font-family: "helvetica";
+	background-color: white;
+}
+
+#container {
+	position: relative;
+	width: 700px;
+	margin: auto;
+}
+
+/*******************************************
+
+General
+
+*******************************************/
+ul {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+li {
+	list-style-type: none;
+	float: left;
+}
+
+h1 {
+	font-weight: normal;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 10px 0px;
+	color: green;
+	font-size: 32px;
+	border-bottom: 1px solid #73b619;
+}
+
+h2 {
+	font-weight: normal;
+	margin-bottom: 20px;
+	padding: 0px;
+	color: grey;
+	font-size: 24px
+}
+
+h3 {
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+/******************************************/
+header {
+	width: 700px;
+	color: white;
+	background-color: green;
+}
+
+header nav {
+	width: 700px;
+	height: 40px;
+	color: black;
+	background-color: #8dc73f;
+}
+
+header li {
+	height: 30px;
+	width: 90px;
+	display: block;
+	margin-right: 20px;
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+}
+
+header li:hover {
+	background-color: #73b619;
+}
+
+/*
+        img:hover{
+        opacity:0.4;
+        filter:alpha(opacity=40); /* For IE8 and earlier */
+#impressum {
+	position: relative;
+	width: 700px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+#clear {
+	clear: both;
+}
+
+footer {
+	width: 700px;
+	height: 80px;
+	margin-top: 20px;
+	padding-top: 8px;
+	border-top: 1px solid #73b619;
+}
+
+footer nav {
+	width: 700px;
+	height: 40px;
+	color: #bababa;
+}
+
+footer li {
+	margin-right: 20px;
+	color: #bababa;
+}
